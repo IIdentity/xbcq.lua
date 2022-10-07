@@ -1,4 +1,5 @@
---// Destroy other instances
+--// Credits to darkhub UI
+
 for _,v in pairs(game.CoreGui:GetChildren()) do
 	if v.Name == "XbcqUI" then
 		v:Destroy()
